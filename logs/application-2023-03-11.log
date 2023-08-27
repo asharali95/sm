@@ -1,0 +1,504 @@
+2023-03-11 00:00:47 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:00:48 [development] error: MongoTransactionError: No transaction started
+    at endTransaction (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:424:18)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at endTransaction (node:internal/util:346:12)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:268:55
+    at maybeCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\utils.js:338:21)
+    at ClientSession.abortTransaction (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:268:42)
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:45:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 00:01:53 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:01:53 [development] error: ReferenceError: session is not defined
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:43:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 00:02:55 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:02:55 [development] error: ReferenceError: updatedJob is not defined
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:17:20)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 00:03:55 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:19:32 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:19:32 [development] error: Error: Invalid select: select only takes 1 argument
+    at model.Query.select (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:1100:11)
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:25:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 00:22:21 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:30:58 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 00:31:06 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:31:09 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:31:09 [development] error: MongoTransactionError: Cannot call abortTransaction after calling commitTransaction
+    at endTransaction (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:453:22)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at endTransaction (node:internal/util:346:12)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:268:55
+    at maybeCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\utils.js:338:21)
+    at ClientSession.abortTransaction (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:268:42)
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:191:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 01:33:00 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:33:01 [development] error: MongoTransactionError: Cannot call abortTransaction after calling commitTransaction
+    at endTransaction (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:453:22)
+    at node:internal/util:360:7
+    at new Promise (<anonymous>)
+    at endTransaction (node:internal/util:346:12)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:268:55
+    at maybeCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\utils.js:338:21)
+    at ClientSession.abortTransaction (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\sessions.js:268:42)
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:192:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 01:33:40 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:35:10 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:35:57 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:40:29 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:41:42 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:41:42 [development] error: InternalServerError: Something went wrong
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:24:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 01:48:57 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:49:33 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:49:38 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:51:23 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:51:23 [development] error: InternalServerError: Something went wrong
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:24:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 01:52:24 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 01:57:10 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:00:22 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:05:11 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:05:23 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:06:56 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:07:12 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:12:57 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:17:55 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:18:18 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:18:30 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:26:07 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:26:07 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:28:37 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:28:38 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:29:22 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:29:23 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:36:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:36:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:37:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:37:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:38:15 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:38:15 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:38:35 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:42:33 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:42:33 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 02:43:19 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 02:55:39 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:01:24 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:01:44 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:01:44 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:10 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:10 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:14 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:28 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:34 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:06:40 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:11:09 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:11:09 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:12:34 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:12:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:12:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:03 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:14 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:14 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:18 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:18 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:19 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:26 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:34 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:42 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:49 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:13:57 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:14:07 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:14:21 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:14:27 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:14:37 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:14:47 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:14:53 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:05 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:11 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:18 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:23 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:42 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:48 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:15:56 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:16:02 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:16:09 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:24:36 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:24:36 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:24:39 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:24:49 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:24:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:24:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:25:57 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:25:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:08 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:15 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:25 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:51 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:51 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:26:59 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:28:22 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:28:22 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:30:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:30:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:30:46 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:30:47 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:30:58 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:31:13 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:31:13 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:31:19 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:32:14 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:32:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:32:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 03:32:34 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:32:39 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:32:43 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:33:54 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:34:01 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:34:09 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:34:14 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:34:22 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:34:27 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:29 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:33 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:37 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:42 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:45 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:48 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 03:36:52 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-11 11:42:18 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 11:42:38 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 11:43:00 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:5286:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4930:21
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4929:10)
+    at findInterestAndSavedJobList (webpack-internal:///(api)/./services/db/userServices.js:41:8)
+    at Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:19:115)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 11:43:08 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:5286:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4930:21
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4929:10)
+    at findInterestAndSavedJobList (webpack-internal:///(api)/./services/db/userServices.js:41:8)
+    at Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:19:115)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:07:28 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 12:07:31 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 12:07:32 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-11 12:07:37 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:07:37 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:07:37 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:07:37 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:09:29 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:09:29 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:09:29 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:09:30 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:10:09 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:10:09 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:10:09 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:10:09 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:11:47 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:11:47 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:11:47 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:11:47 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:14:35 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:14:35 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:55:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:14:35 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:14:35 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:55:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:15:15 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:15:15 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:16:18 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:16:18 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:18:00 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:18:01 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:18:29 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:18:29 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:23:29 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:23:29 [development] error: ObjectParameterError: Parameter "filter" to findOne() must be an object, got 63ebdfe65e339fb906580e02
+    at model.Query.Query.findOne (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2608:16)
+    at Function.findOne (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:2364:13)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:17:83)
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:47:96)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:23:29 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:23:29 [development] error: ObjectParameterError: Parameter "filter" to findOne() must be an object, got 63ebdfe65e339fb906580e02
+    at model.Query.Query.findOne (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2608:16)
+    at Function.findOne (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:2364:13)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:17:83)
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:47:96)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:24:44 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:24:44 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:25:31 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:25:31 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:27:18 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:27:19 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:28:01 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:28:01 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:28:18 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:28:19 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:28:34 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:28:34 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:30:18 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:30:18 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:30:18 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:30:18 [development] error: NotFoundError: User not found
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:54:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-11 12:31:11 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:31:12 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:33:00 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:33:01 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:33:43 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-11 12:33:44 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 

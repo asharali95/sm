@@ -1,0 +1,66 @@
+@tailwind base;
+
+
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+
+
+    ::-webkit-scrollbar-track {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .quill-container .ql-container {
+        border-bottom-left-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        background: #ffffff;
+    }
+
+    /* Snow Theme */
+    .quill-container .ql-snow.ql-toolbar {
+        display: block;
+        background: #dadada;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+
+    .detail-section {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 300ms, transform 300ms;
+    }
+
+    .job-details-header {
+        height: calc((100vh - 70px) * 0.35)
+    }
+
+    .job-details-body {
+        height: calc((100vh - 70px) * 0.65)
+    }
+
+    .hero-bg {
+        background: hsla(0, 3%, 88%, 1);
+
+        background: radial-gradient(circle, hsla(0, 3%, 88%, 1) 0%, hsla(0, 0%, 65%, 1) 100%);
+
+        background: -moz-radial-gradient(circle, hsla(0, 3%, 88%, 1) 0%, hsla(0, 0%, 65%, 1) 100%);
+
+        background: -webkit-radial-gradient(circle, hsla(0, 3%, 88%, 1) 0%, hsla(0, 0%, 65%, 1) 100%);
+
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#E1DFDF", endColorstr="#A7A7A7", GradientType=1);
+    }
+
+    .quill.ql-error .ql-toolbar {
+        @apply border-t-2 border-l-2 border-r-2 border-red-600/30
+    }
+
+    .quill.ql-error .ql-container {
+        @apply border-b-2 border-l-2 border-r-2 border-red-600/30 bg-red-300/5
+    }
+
+}

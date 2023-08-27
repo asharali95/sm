@@ -1,0 +1,432 @@
+2023-03-13 00:24:04 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:25:07 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:25:15 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:25:51 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:25:58 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:28:30 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:28:41 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:28:46 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:28:52 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:29:38 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:29:55 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:30:06 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 00:30:06 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:32:44 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 00:32:45 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:33:37 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 00:33:37 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:35:09 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 00:35:09 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:36:28 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 00:36:28 [development] info: Method:GET URL:/api/job 
+2023-03-13 00:51:34 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 00:51:34 [development] info: Method:GET URL:/api/job 
+2023-03-13 01:27:43 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:27:43 [development] error: ReferenceError: dashboard is not defined
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:17:118)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-13 01:29:20 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 01:29:21 [development] info: Method:GET URL:/api/job 
+2023-03-13 01:29:29 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:30:18 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 01:30:18 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 01:30:20 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:30:31 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:34:28 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 01:34:29 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 01:38:06 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 01:38:07 [development] info: Method:GET URL:/api/job 
+2023-03-13 01:38:09 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 01:38:09 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 01:38:11 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 01:38:12 [development] info: Method:GET URL:/api/job 
+2023-03-13 01:40:29 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:57:47 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 01:57:47 [development] info: Method:GET URL:/api/job 
+2023-03-13 01:57:57 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:58:09 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 01:58:09 [development] info: Method:GET URL:/api/job 
+2023-03-13 01:58:31 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:58:45 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:58:57 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 01:59:01 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 01:59:01 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:01:16 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:01:47 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:09:28 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:09:28 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:09:34 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:09:40 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:09:43 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:09:46 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:20:04 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:20:04 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:20:11 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:20:45 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:20:51 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:20:56 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:21:10 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:21:11 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:23:26 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:23:28 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:23:39 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 02:23:39 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 02:23:42 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:23:49 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:23:52 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:23:57 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 02:24:06 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:24:07 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:26:11 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:26:12 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:45:54 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:46:24 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:5286:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4930:21
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4929:10)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:17:106)
+    at Object.getUser [as get] (webpack-internal:///(api)/./pages/api/user/[id].js:46:96)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-13 02:46:24 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:46:54 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:5286:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4930:21
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4929:10)
+    at model.Query.Query.then (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-13 02:47:54 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:48:13 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:48:17 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:48:17 [development] info: Method:GET URL:/api/job 
+2023-03-13 02:50:10 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 02:50:10 [development] info: Method:GET URL:/api/job 
+2023-03-13 03:00:03 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:00:03 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:08:39 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:08:39 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:08:43 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:08:43 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:08:49 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:08:49 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:09:33 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:09:33 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:10:25 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:10:25 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:10:51 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:10:51 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:10:51 [development] error: TypeError: Cannot destructure property 'currentPage' of 'req.query.param' as it is undefined.
+    at Object.getAlljobs [as get] (webpack-internal:///(api)/./pages/api/job/index.js:25:13)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-13 03:11:34 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:11:34 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:12:34 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:12:34 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:21:27 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:21:27 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:21:34 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 03:22:18 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:22:18 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:22:40 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:22:40 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:22:42 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:22:42 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:22:45 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:22:45 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:24:04 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:24:05 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:24:13 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 03:24:29 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:24:29 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:24:39 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 03:25:07 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:25:07 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:25:14 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 03:26:04 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 03:26:04 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 03:26:13 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 03:26:18 [development] info: Method:GET URL:/api/job?page=3&limit=5 
+2023-03-13 12:38:35 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 12:38:42 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 12:38:45 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 12:55:27 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 12:55:28 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 12:55:40 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 12:55:40 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 12:57:21 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 13:01:18 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 13:01:25 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 13:01:42 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 13:01:42 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 13:01:47 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 13:01:48 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 13:02:12 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 13:02:12 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 13:18:16 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 13:18:22 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 13:18:27 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 13:18:31 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 14:47:35 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 14:53:43 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new%20job&searchField=title 
+2023-03-13 14:53:56 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=dev&searchField=title 
+2023-03-13 14:54:31 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=remote&searchField=title 
+2023-03-13 14:54:49 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=bangladesh&searchField=location 
+2023-03-13 14:54:57 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=&searchField=location 
+2023-03-13 14:55:34 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=&searchField=all 
+2023-03-13 14:55:52 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=irela&searchField=location 
+2023-03-13 14:55:59 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new&searchField=location 
+2023-03-13 14:56:39 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=&searchField=all 
+2023-03-13 14:57:15 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=uk&searchField=location 
+2023-03-13 14:57:24 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=india&searchField=location 
+2023-03-13 14:59:03 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=india&searchField=location 
+2023-03-13 14:59:06 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=india&searchField=location 
+2023-03-13 17:35:15 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 17:35:25 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 17:35:28 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 17:35:46 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 17:35:49 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 17:36:39 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=n&searchField=title 
+2023-03-13 17:36:46 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=n&searchField=title 
+2023-03-13 17:37:17 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=n&searchField=title 
+2023-03-13 17:37:25 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=not&searchField=title 
+2023-03-13 17:37:34 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new&searchField=title 
+2023-03-13 17:37:55 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=ireland&searchField=location 
+2023-03-13 17:47:30 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=&searchField=location 
+2023-03-13 17:47:36 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=&searchField=title 
+2023-03-13 17:47:44 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new&searchField=title 
+2023-03-13 17:47:50 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new&searchField=title 
+2023-03-13 17:48:31 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new&searchField=title 
+2023-03-13 19:34:28 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=not&searchField=location 
+2023-03-13 19:36:22 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=not&searchField=location 
+2023-03-13 19:37:18 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=ireland&searchField=location 
+2023-03-13 19:37:26 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 19:37:27 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=&searchField=all 
+2023-03-13 19:38:39 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 19:48:33 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=dev&searchField=title 
+2023-03-13 19:49:36 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 19:49:40 [development] info: Method:GET URL:/api/job?page=3&limit=5 
+2023-03-13 19:51:12 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=dev&searchField=title 
+2023-03-13 19:58:38 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=dev&searchField=title 
+2023-03-13 19:58:58 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=Bangladesh&searchField=location 
+2023-03-13 19:59:10 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=Ireland&searchField=location 
+2023-03-13 20:00:55 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:00:55 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:01:12 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=ireland&searchField=location 
+2023-03-13 20:01:31 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new%20York&searchField=location 
+2023-03-13 20:01:48 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:01:58 [development] info: Method:GET URL:/api/job?page=2&limit=5 
+2023-03-13 20:37:55 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:37:55 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:38:36 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:38:36 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:38:37 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:38:37 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:38:38 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:38:38 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:38:41 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 20:38:41 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 20:39:00 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 20:39:10 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 20:39:40 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:39:40 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:39:53 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:40:11 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 20:40:11 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:40:26 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:40:26 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:44:24 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:45:19 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 20:45:19 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:48:56 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:48:56 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:49:11 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 20:49:11 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:49:19 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:50:19 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 20:50:19 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:54:13 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 20:54:13 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:55:49 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 20:55:49 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:56:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:56:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:58:32 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 20:58:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:58:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:58:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:58:52 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 20:58:52 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 21:02:21 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 21:02:21 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 21:02:27 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:02:27 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:02:32 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:02:34 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:02:34 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:04:27 [development] info: Method:PUT URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:04:38 [development] info: Method:PUT URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:35:38 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:36:32 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:36:46 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:37:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 21:37:46 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:38:18 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:39:13 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-13 21:39:13 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:45:44 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:45:44 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:46:34 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-13 21:46:34 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 21:48:26 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 21:48:26 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:02:06 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:02:06 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:02:17 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-13 22:02:17 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:02:27 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:02:31 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:02:44 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:02:44 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:03:02 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:03:02 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:05:33 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:05:33 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:06:27 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:06:28 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:06:40 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:06:40 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:07:19 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:07:19 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:13:03 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:13:04 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:13:16 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:13:16 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:13:49 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:13:50 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:14:02 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:14:02 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:14:13 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:14:13 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:16:42 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:16:42 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:17:04 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:17:04 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:17:43 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:17:43 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:19:34 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:19:34 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:38:43 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:38:43 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:38:43 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:38:43 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:38:45 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:38:45 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:38:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:38:47 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:40:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:40:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:40:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:40:48 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:40:48 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:40:48 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:40:49 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:40:49 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:41:35 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:41:35 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:41:36 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:41:36 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:41:36 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:41:37 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:43:34 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:43:35 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:43:35 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:43:35 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:44:27 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:44:27 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:44:28 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:44:28 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:44:31 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:44:32 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:47:41 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:47:42 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:48:30 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:48:30 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:48:35 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:48:36 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:48:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:48:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:48:51 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:48:51 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:49:31 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:49:31 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:49:48 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:49:48 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-13 22:50:00 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 22:50:15 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:50:15 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:50:29 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:50:29 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:50:40 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 22:50:40 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 22:50:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:50:47 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:50:51 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 22:50:51 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 22:50:58 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:11 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:18 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:23 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:24 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:29 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:35 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 23:04:35 [development] info: Method:GET URL:/api/user/getJobList/640d00913c71c387f72724d0 
+2023-03-13 23:04:38 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:04:46 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:04:47 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:04:51 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:04:51 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 23:07:55 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:11:23 [development] info: Method:PUT URL:/api/user/applySave/640d00913c71c387f72724d0 
+2023-03-13 23:11:31 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:11:31 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:11:39 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:11:42 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 23:15:21 [development] info: Method:GET URL:/api/user/640d00913c71c387f72724d0 
+2023-03-13 23:15:21 [development] info: Method:GET URL:/api/job?page=1&limit=5 
+2023-03-13 23:16:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 23:16:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-13 23:59:44 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=dev&searchField=title 
+2023-03-13 23:59:56 [development] info: Method:GET URL:/api/search?searchCollection=jobs&searchTerm=new&searchField=title 

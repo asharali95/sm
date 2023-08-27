@@ -1,0 +1,907 @@
+2023-03-10 00:00:17 [development] error: MongoNetworkError: connection 17 to 13.233.218.157:27017 closed
+    at Connection.onClose (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:134:19)
+    at TLSSocket.<anonymous> (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:62:46)
+    at TLSSocket.emit (node:events:527:28)
+    at node:net:709:12
+    at TCP.done (node:_tls_wrap:582:7)
+2023-03-10 00:00:40 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:5286:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4930:21
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4929:10)
+    at model.Query.Query.then (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-10 00:01:34 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:01:34 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:01:46 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:02:23 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:02:29 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:02:45 [development] error: MongoNetworkError: connection 20 to 13.233.218.157:27017 closed
+    at Connection.onClose (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:134:19)
+    at TLSSocket.<anonymous> (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:62:46)
+    at TLSSocket.emit (node:events:527:28)
+    at node:net:709:12
+    at TCP.done (node:_tls_wrap:582:7)
+2023-03-10 00:03:12 [development] error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:5286:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4930:21
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4929:10)
+    at model.Query.Query.then (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:5012:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-10 00:03:34 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 00:03:37 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:03:38 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-03-10 00:03:39 [development] error: NotFoundError: Not Found
+    at Object.deleteImage [as delete] (webpack-internal:///(api)/./pages/api/cloudinary/deleteImage.js:26:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 00:04:19 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 00:04:20 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:04:20 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-03-10 00:04:22 [development] error: NotFoundError: Not Found
+    at Object.deleteImage [as delete] (webpack-internal:///(api)/./pages/api/cloudinary/deleteImage.js:26:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 00:04:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:04:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:05:21 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:07:03 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:07:03 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:07:19 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:07:39 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:10:12 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:10:12 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 00:11:11 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 00:42:10 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:42:21 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 00:42:21 [development] error: MongoNetworkError: getaddrinfo ENOTFOUND ac-0nd6ost-shard-00-01.dsd8v4s.mongodb.net
+    at connectionFailureError (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connect.js:387:20)
+    at TLSSocket.<anonymous> (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connect.js:310:22)
+    at Object.onceWrapper (node:events:642:26)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-03-10 00:42:21 [development] error: MongoNetworkError: getaddrinfo ENOTFOUND ac-0nd6ost-shard-00-01.dsd8v4s.mongodb.net
+    at connectionFailureError (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connect.js:387:20)
+    at TLSSocket.<anonymous> (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\node_modules\mongodb\lib\cmap\connect.js:310:22)
+    at Object.onceWrapper (node:events:642:26)
+    at TLSSocket.emit (node:events:527:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-03-10 01:00:27 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 01:00:27 [development] error: ValidationError: draft must be a `string` type, but the final value was: `true`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at StringSchema.runTests (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:698:24)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:663:12
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-10 01:02:49 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:02:49 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:02:55 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 01:03:10 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 01:03:34 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 01:08:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:08:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:08:22 [development] info: Method:PUT URL:/api/job/6408ab40c2675f6cc0210364 
+2023-03-10 01:10:40 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:10:42 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:10:42 [development] error: ValidationError: Company ID is required
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-03-10 01:10:42 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-03-10 01:16:20 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:16:20 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:19:12 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:19:14 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:36:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:36:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:37:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:37:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:37:34 [development] info: Method:PUT URL:/api/job/6408fb264cebd1ce2e6e4eaa 
+2023-03-10 01:37:44 [development] info: Method:PUT URL:/api/job/6408fb264cebd1ce2e6e4eaa 
+2023-03-10 01:37:51 [development] info: Method:PUT URL:/api/job/6408fb264cebd1ce2e6e4eaa 
+2023-03-10 01:39:28 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:39:30 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:43:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:43:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:46:44 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:46:46 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:48:02 [development] info: Method:PUT URL:/api/job/640a37a64cebd1ce2e6e4fe2 
+2023-03-10 01:49:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:49:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:50:58 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:50:58 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:51:54 [development] info: Method:PUT URL:/api/job/640a35f24cebd1ce2e6e4fdb 
+2023-03-10 01:52:08 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:52:08 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:53:10 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:53:14 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:53:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:53:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:55:09 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:55:10 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:55:32 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:55:32 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:55:46 [development] info: Method:PUT URL:/api/job/640a399ec48d272beb04ce54 
+2023-03-10 01:56:13 [development] info: Method:PUT URL:/api/job/640a399ec48d272beb04ce54 
+2023-03-10 01:56:21 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:56:21 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 01:57:58 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:57:59 [development] info: Method:POST URL:/api/job 
+2023-03-10 01:59:32 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-03-10 01:59:34 [development] info: Method:POST URL:/api/job 
+2023-03-10 02:02:34 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 02:02:47 [development] info: Method:PUT URL:/api/job/640a3aa6c48d272beb04ce64 
+2023-03-10 02:03:00 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 02:07:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 02:09:10 [development] info: Method:PUT URL:/api/job/6408fb264cebd1ce2e6e4eaa 
+2023-03-10 02:09:24 [development] info: Method:PUT URL:/api/job/6408a9a6c2675f6cc0210361 
+2023-03-10 02:13:52 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:13:52 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:14:03 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 02:14:03 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 02:16:09 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 02:16:09 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-03-10 02:18:23 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:18:23 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:18:38 [development] info: Method:PUT URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:20:03 [development] info: Method:PUT URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:20:30 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:20:30 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:23:17 [development] info: Method:PUT URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:25:44 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:25:44 [development] info: Method:GET URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 02:25:51 [development] info: Method:PUT URL:/api/user/63f4e315b8d06f42a93d3ee8 
+2023-03-10 04:24:12 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:24:12 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:24:12 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:24:12 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:29:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:29:29 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:29:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:29:29 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:35:54 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:35:55 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:35:55 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:35:55 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:37:49 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-10 04:37:49 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-10 04:38:03 [development] info: Method:PUT URL:/api/user/63ebdfe65e339fb906580e02 
+2023-03-10 04:39:23 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:39:23 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:39:23 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:39:23 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:47:41 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:47:42 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:47:42 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:47:42 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:51:43 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:51:43 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:53:01 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:53:01 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:53:01 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:53:01 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:56:42 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:56:42 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 04:56:43 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 04:56:43 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:01:55 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:01:56 [development] error: MissingSchemaError: Schema hasn't been registered for model "jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:01:56 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:01:57 [development] error: MissingSchemaError: Schema hasn't been registered for model "jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:03:12 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:03:12 [development] error: MissingSchemaError: Schema hasn't been registered for model "jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:03:12 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:03:12 [development] error: MissingSchemaError: Schema hasn't been registered for model "jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:04:08 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:04:09 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:04:09 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:04:09 [development] error: MissingSchemaError: Schema hasn't been registered for model "Jobs".
+Use mongoose.model(name, schema)
+    at NativeConnection.Connection.model (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\connection.js:1237:13)
+    at _getModelFromConn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:580:15)
+    at addModelNamesToMap (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:508:17)
+    at getModelsMapForPopulate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\populate\getModelsMapForPopulate.js:198:7)
+    at populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4731:21)
+    at _populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4691:5)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4668:5
+    at promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\promiseOrCallback.js:11:14)
+    at Mongoose._promiseOrCallback (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\index.js:1285:10)
+    at Function.Model.populate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\model.js:4666:23)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:2305:19
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\helpers\query\completeMany.js:37:32
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-03-10 05:12:01 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:12:01 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:12:27 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:12:28 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:13:15 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:13:15 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:14:31 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:14:56 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:15:09 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:15:34 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:24:38 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:24:39 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:25:41 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:25:41 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:27:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:27:29 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:28:14 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:28:15 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:29:00 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:29:00 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:31:18 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:31:18 [development] error: TypeError: Cannot read properties of undefined (reading 'appliedJobs')
+    at findInterestAndSavedJobList (webpack-internal:///(api)/./services/db/userServices.js:40:51)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:19:23)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 05:31:18 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:31:18 [development] error: TypeError: Cannot read properties of undefined (reading 'appliedJobs')
+    at findInterestAndSavedJobList (webpack-internal:///(api)/./services/db/userServices.js:40:51)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:19:23)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 05:33:49 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:33:50 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:35:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:35:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:35:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:35:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:36:44 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 05:36:44 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:15:48 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:15:49 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:16:20 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:16:20 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:16:33 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:16:34 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:17:37 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:17:37 [development] error: TypeError: foundList.toObject is not a function
+    at Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:23:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 14:17:37 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:17:38 [development] error: TypeError: foundList.toObject is not a function
+    at Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:23:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 14:23:07 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:23:07 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:23:53 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:23:53 [development] error: TypeError: Cannot read properties of undefined (reading 'appliedJobs')
+    at Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:23:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 14:23:53 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:23:53 [development] error: TypeError: Cannot read properties of undefined (reading 'appliedJobs')
+    at Object.getJobList [as get] (webpack-internal:///(api)/./pages/api/user/getJobList/[id].js:23:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 14:24:20 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:24:20 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:26:51 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:26:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:31:51 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:31:52 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:34:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:34:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:34:43 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:35:32 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:36:54 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:36:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:36:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:37:12 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:37:24 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:37:24 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:38:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:38:16 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:38:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 14:38:58 [development] info: Method:GET URL:/api/user/getJobList/63ebdfe65e339fb906580e02 
+2023-03-10 22:51:40 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 22:51:40 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:178:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 22:52:42 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 22:52:42 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:179:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 22:53:39 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 22:53:39 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:180:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 22:55:00 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 22:55:02 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:00:34 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:05:11 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:05:47 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:06:42 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:07:04 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:07:05 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:08:14 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:08:48 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:10:38 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:11:21 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:12:00 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:12:11 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:12:20 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:18:40 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:18:40 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:22:55 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:22:55 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:27:52 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:27:52 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:29:40 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:29:40 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:41:05 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:41:05 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:176:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:43:16 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:43:16 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:176:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:45:43 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:45:43 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:176:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:47:28 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:47:30 [development] error: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at sendJson (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:197:19)
+    at ServerResponse.apiRes.json (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:360:31)
+    at Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:20:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-03-10 23:51:36 [development] info: Method:PUT URL:/api/user/applySave/63ebdfe65e339fb906580e02 
+2023-03-10 23:51:36 [development] error: Error: Could not perform the requested action
+    at applySave (webpack-internal:///(api)/./services/db/applySaveService.js:176:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.handleApplySave [as put] (webpack-internal:///(api)/./pages/api/user/applySave/[id].js:18:20)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)

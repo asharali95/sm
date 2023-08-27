@@ -1,0 +1,30 @@
+2023-02-17 02:02:08 [development] info: Method:POST URL:/api/register 
+2023-02-17 02:02:09 [development] error: TypeError: Cannot create property 'password' on string ''
+    at Object.registerUser [as post] (webpack-internal:///(api)/./pages/api/register.js:19:23)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:17:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-17 02:03:48 [development] info: Method:POST URL:/api/register 
+2023-02-17 02:03:48 [development] error: TypeError: Cannot create property 'password' on string ''
+    at Object.registerUser [as post] (webpack-internal:///(api)/./pages/api/register.js:19:23)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:17:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-17 02:06:15 [development] info: Method:POST URL:/api/register 
+2023-02-17 02:06:16 [development] error: ValidationError: Users validation failed: role: Path `role` is required.
+    at model.Document.invalidate (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\document.js:3125:32)
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\document.js:2913:17
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\schematype.js:1349:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+2023-02-17 02:07:00 [development] info: Method:POST URL:/api/register 
+2023-02-17 02:39:30 [development] info: Method:POST URL:/api/register 

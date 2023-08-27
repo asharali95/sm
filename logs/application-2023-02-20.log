@@ -1,0 +1,64 @@
+2023-02-20 15:46:05 [development] info: Method:POST URL:/api/job 
+2023-02-20 15:46:05 [development] error: ValidationError: 2 errors occurred
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-20 15:48:42 [development] info: Method:POST URL:/api/job 
+2023-02-20 15:48:42 [development] error: ValidationError: 2 errors occurred
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-20 15:49:42 [development] info: Method:POST URL:/api/job 
+2023-02-20 15:49:42 [development] error: ValidationError: deadline must be a `date` type, but the final value was: `"2023-03-11"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-20 15:50:30 [development] info: Method:POST URL:/api/job 
+2023-02-20 15:50:30 [development] error: ValidationError: deadline must be a `date` type, but the final value was: `"2023-03-11T00:00:00.000Z"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-20 15:55:55 [development] info: Method:POST URL:/api/job 
+2023-02-20 15:55:55 [development] error: ValidationError: deadline must be a `date` type, but the final value was: `"2023-03-11T00:00:00.000Z"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-20 15:56:23 [development] info: Method:POST URL:/api/job 
+2023-02-20 15:56:23 [development] error: ValidationError: deadline must be a `date` type, but the final value was: `"2023-03-11T00:00:00.000Z"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1744:9
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-20 16:15:49 [development] info: Method:POST URL:/api/job 
+2023-02-20 20:08:21 [development] info: Method:POST URL:/api/job 
+2023-02-20 21:15:03 [development] info: Method:POST URL:/api/job 

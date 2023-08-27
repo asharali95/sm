@@ -1,0 +1,760 @@
+2023-02-22 01:07:39 [development] info: Method:POST URL:/api/user/register 
+2023-02-22 01:09:25 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-22 01:10:15 [development] info: Method:POST URL:/api/user/register 
+2023-02-22 01:11:19 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 01:11:19 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 01:46:47 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-22 01:46:47 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4913:21)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:16:99)
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:21:96)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:18:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 01:47:58 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-22 01:47:58 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4913:21)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:16:99)
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:21:96)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:18:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 01:49:18 [development] info: Method:PUT URL:/api/user/undefined 
+2023-02-22 01:49:18 [development] error: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"
+    at model.Query.exec (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\mongoose\lib\query.js:4913:21)
+    at findUser (webpack-internal:///(api)/./services/db/userServices.js:16:99)
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:21:96)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:18:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 01:50:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 01:50:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 01:50:43 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 01:50:43 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:34:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:18:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 01:52:29 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 01:52:29 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:34:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 01:57:46 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 01:58:09 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:01:37 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:03:08 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:03:08 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:35:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 02:04:00 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:04:01 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:35:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 02:08:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:08:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:08:21 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:08:21 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:37:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 02:09:35 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:09:35 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:37:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 02:12:11 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:13:05 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:13:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:13:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:13:48 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:14:02 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:14:09 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:14:16 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:15:05 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:15:05 [development] error: NotFoundError: User not found
+    at Object.editUser [as put] (webpack-internal:///(api)/./pages/api/user/[id].js:37:65)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-22 02:15:42 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:16:44 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:17:24 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:19:23 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:27:16 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:27:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:27:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:27:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:27:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:27:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:27:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:40:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:40:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:40:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:40:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:50:09 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:50:09 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:51:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:51:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:52:49 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:52:49 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:53:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:53:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:54:10 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:54:10 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:54:35 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:54:35 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:54:36 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:54:36 [development] error: ValidationError: this must be a `object` type, but the final value was: `""`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1720:9
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:661:16
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-22 02:54:36 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:54:36 [development] error: ValidationError: this must be a `object` type, but the final value was: `""`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1720:9
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:661:16
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-22 02:56:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:56:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:56:30 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:56:30 [development] error: ValidationError: this must be a `object` type, but the final value was: `"63ee9482bba6e138143ad2ca"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1720:9
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:661:16
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-22 02:56:30 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:56:30 [development] error: ValidationError: this must be a `object` type, but the final value was: `"63ee9482bba6e138143ad2ca"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1720:9
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:661:16
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-22 02:56:33 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:56:33 [development] error: ValidationError: this must be a `object` type, but the final value was: `"63ee9482bba6e138143ad2ca"`.
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:757:33
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:1720:9
+    at C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:661:16
+    at nextOnce (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:694:7)
+    at finishTestRun (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:713:11)
+    at handleResult (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\yup\index.js:322:124)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-02-22 02:57:32 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:57:32 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:57:33 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:57:33 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:58:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:58:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:58:40 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:58:40 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:59:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:59:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 02:59:56 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 02:59:56 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:01:31 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:01:47 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:01:47 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:01:47 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:01:47 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:05:45 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:05:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:05:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:05:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:05:52 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:07:57 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:07:57 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:07:57 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:07:57 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:09:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:09:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:09:05 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:09:05 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:15:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:15:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:15:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:15:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:16:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:16:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:16:17 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:16:17 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:16:38 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:16:38 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:16:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:16:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:17:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:17:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:17:50 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:17:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:17:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:17:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:17:59 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:18:00 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:18:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:18:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:18:44 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:18:44 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:19:10 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:19:10 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:19:11 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:19:11 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:20:20 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:20:20 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:20:20 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:20:21 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:20:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:20:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:20:36 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:20:37 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:22:39 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:22:39 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:22:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:22:40 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:25:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:25:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:25:37 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:25:37 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:25:41 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:25:41 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:25:41 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:25:41 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:26:17 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:26:17 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:26:17 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:26:17 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:29:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:29:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:29:32 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:29:32 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:29:34 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:29:34 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:29:34 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:29:35 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:30:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:30:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:30:41 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:30:41 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:33:42 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:33:42 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:33:43 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:33:43 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:35:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:35:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:35:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:35:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:36:41 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:36:41 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:36:41 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:36:42 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:36:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:36:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:36:46 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:36:46 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:37:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:37:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:37:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:37:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:37:35 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:37:35 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:37:35 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:37:35 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:39:52 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:39:52 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:39:52 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:39:52 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:40:47 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:40:47 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:40:47 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:40:47 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:41:39 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:41:39 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:41:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:41:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:42:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:42:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:42:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:42:52 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:42:56 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:43:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:43:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:43:05 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:43:05 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:43:18 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:49:33 [development] info: Method:POST URL:/api/job 
+2023-02-22 03:49:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:49:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:49:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:49:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:51:46 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:52:49 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:53:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:53:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 03:53:02 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 03:53:02 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:01:17 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:01:17 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:01:17 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:01:18 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:02:03 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:02:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:02:04 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:02:04 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:02:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:02:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:02:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:02:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:03:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:03:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:03:27 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:03:28 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:03:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:03:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:03:56 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:03:56 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:05:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:05:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:05:13 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:05:13 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:05:42 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:05:42 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:05:42 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:05:42 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:05:48 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:05:48 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:05:48 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:05:48 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:06:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:06:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:06:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:06:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:06:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:06:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:06:45 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:06:45 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:07:20 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:07:20 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:07:20 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:07:20 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:09:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:09:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:09:31 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:09:31 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:10:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:10:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:10:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:10:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:11:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:11:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:11:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:11:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:14:06 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:14:06 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:14:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:14:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:30:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:30:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:30:02 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:30:02 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:30:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:30:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 05:30:16 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 05:30:16 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 17:17:12 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 17:45:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 17:45:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 17:45:59 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 17:45:59 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:38:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:38:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:38:14 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:38:14 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:43:00 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:43:00 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:43:00 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:43:00 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:43:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:43:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:43:28 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:43:28 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:43:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:43:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:43:31 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:43:31 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:44:08 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:44:08 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:44:08 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:44:08 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:44:47 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:44:47 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:44:47 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:44:47 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:45:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:45:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:45:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:45:08 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:48:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:48:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:48:05 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:48:05 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:51:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:51:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:51:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:51:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:51:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:51:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:51:46 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:51:46 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:52:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:52:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:53:00 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:53:00 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:55:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:55:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:55:56 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:55:56 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:56:38 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:56:38 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:56:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:56:39 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:57:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:57:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:57:16 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:57:16 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:57:34 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 18:57:36 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 18:57:38 [development] error: undefined
+2023-02-22 18:58:54 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:58:54 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 18:58:55 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:58:55 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 18:59:08 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 18:59:34 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 18:59:36 [development] error: undefined
+2023-02-22 19:07:11 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:07:12 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:07:12 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:07:12 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:07:22 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:08:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:08:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:08:44 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:08:44 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:09:46 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:12:14 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:12:14 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:12:14 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:12:14 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:12:30 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:12:30 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:12:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:12:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:12:46 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:12:46 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:36:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:36:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:36:14 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:36:15 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:36:50 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:36:52 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:36:52 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:36:54 [development] error: undefined
+2023-02-22 19:37:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:37:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:37:27 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:37:27 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:40:39 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:40:40 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:40:41 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:40:42 [development] error: undefined
+2023-02-22 19:42:15 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:42:15 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:42:15 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:42:15 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:42:25 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:42:26 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:42:26 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:42:28 [development] error: undefined
+2023-02-22 19:44:06 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:44:09 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:44:09 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:44:11 [development] error: undefined
+2023-02-22 19:44:53 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:44:54 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:44:54 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:44:55 [development] error: undefined
+2023-02-22 19:50:19 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:50:19 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:50:19 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:50:19 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:50:26 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:50:29 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:50:29 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:53:08 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:53:13 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:53:13 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:53:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:53:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:53:40 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:53:40 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:54:31 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:54:34 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:54:34 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:55:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:55:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:55:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:55:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:55:20 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:55:22 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:55:22 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:58:33 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:58:33 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:58:33 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:58:33 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:58:41 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 19:58:42 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:58:42 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 19:58:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:58:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 19:58:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 19:58:51 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:02:54 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 20:02:54 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 20:02:54 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:02:54 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:03:01 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 20:03:02 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:03:03 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 20:04:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 20:04:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 20:04:37 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:04:37 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:04:44 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 20:04:45 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:04:46 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 20:39:13 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 20:39:17 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:39:18 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 20:40:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 20:40:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 20:40:37 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:40:38 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 20:40:46 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 21:55:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:55:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:55:23 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:55:23 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:55:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:55:29 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:55:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:55:29 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:56:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:56:50 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:56:50 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:56:50 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:56:59 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 21:57:02 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:57:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:57:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 21:57:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:57:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 21:58:11 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 21:58:12 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 21:58:14 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:07:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:07:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:07:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:07:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:07:26 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:07:26 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:08:18 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:08:18 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:08:19 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:08:19 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:13:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:13:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:13:43 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:13:43 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:18:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:18:24 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:18:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:18:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:18:53 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:18:53 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:18:53 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:18:53 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:19:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:19:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:19:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:19:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:19:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:19:51 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:19:52 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:19:52 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:20:06 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:20:06 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:20:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:20:07 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:20:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:20:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:20:30 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:20:30 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:21:12 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:21:12 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:21:12 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:21:12 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:21:42 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:21:42 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:21:43 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:21:43 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:23:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:23:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:23:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:23:25 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:23:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:23:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:23:30 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:23:30 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:26:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:26:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:26:45 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:26:45 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:27:33 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 22:27:35 [development] info: Method:DELETE URL:/api/cloudinary/deleteImage 
+2023-02-22 22:27:36 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:28:08 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 22:28:10 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:28:30 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 22:28:31 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:29:08 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:29:37 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 22:29:38 [development] info: Method:PUT URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:29:48 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:29:48 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 22:29:48 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 22:29:48 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:31:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:31:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:31:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:31:24 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:33:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:33:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:33:13 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:33:13 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:34:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:34:36 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:34:36 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:34:36 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:35:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:35:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:35:03 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:35:03 [development] info: Method:GET URL:/api/user/63ee9482bba6e138143ad2ca 
+2023-02-22 23:47:54 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:47:54 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:47:54 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:47:54 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:49:39 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:49:39 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:49:40 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:49:40 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:50:38 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:50:38 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:50:38 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:50:38 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:51:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:51:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-22 23:51:37 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:51:37 [development] info: Method:GET URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:51:53 [development] info: Method:POST URL:/api/cloudinary/signature 
+2023-02-22 23:52:00 [development] info: Method:PUT URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:52:25 [development] info: Method:PUT URL:/api/user/63ebdfe65e339fb906580e02 
+2023-02-22 23:52:44 [development] info: Method:PUT URL:/api/user/63ebdfe65e339fb906580e02 

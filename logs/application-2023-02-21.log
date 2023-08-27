@@ -1,0 +1,199 @@
+2023-02-21 00:53:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:53:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:55:22 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:55:22 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:55:22 [development] error: ReferenceError: data is not defined
+    at Object.getJobsByEmloyer [as post] (webpack-internal:///(api)/./pages/api/job/getJobsByEmployer.js:16:5)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 00:55:22 [development] error: ReferenceError: data is not defined
+    at Object.getJobsByEmloyer [as post] (webpack-internal:///(api)/./pages/api/job/getJobsByEmployer.js:16:5)
+    at eval (webpack-internal:///(api)/./utils/api-handler.js:20:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 00:56:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:56:05 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:57:57 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:57:57 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:58:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:58:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:59:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:59:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:59:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 00:59:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:00:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:00:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:01:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:01:44 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:02:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:02:27 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:02:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:02:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:05:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 01:05:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:17:19 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:17:19 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:19:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:19:40 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:21:11 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:21:11 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:21:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:21:25 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:22:18 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:22:18 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:23:01 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:23:01 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:23:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:23:43 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:23:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:23:46 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:24:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:24:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:32:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:32:16 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:35:21 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:35:21 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:54:48 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 11:54:48 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 12:37:18 [development] info: Method:POST URL:/api/job 
+2023-02-21 12:37:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 12:37:28 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 12:55:34 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 12:55:34 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 12:57:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 12:57:59 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 14:31:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 14:31:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 14:37:32 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 14:37:32 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:02:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:02:31 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:03:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:03:13 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:05:57 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:05:58 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:11:14 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:11:14 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:14:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:14:55 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:22:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:22:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:22:11 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:22:11 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:23:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:23:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:37:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:37:23 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:39:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:39:02 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:39:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:39:45 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:40:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 15:40:37 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 17:10:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 17:10:30 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 17:11:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 17:11:07 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:20:32 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:20:32 [development] error: TypeError: Cannot read properties of null (reading '_doc')
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/checkUser.js:11:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 21:20:48 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:20:48 [development] error: TypeError: Cannot read properties of null (reading '_doc')
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/checkUser.js:11:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 21:21:44 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:21:44 [development] error: TypeError: Cannot read properties of null (reading '_doc')
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/checkUser.js:11:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 21:22:01 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:22:01 [development] error: TypeError: Cannot read properties of null (reading '_doc')
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/checkUser.js:11:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 21:22:28 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:22:28 [development] error: TypeError: Cannot read properties of null (reading '_doc')
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/checkUser.js:11:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 21:22:35 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:22:35 [development] error: TypeError: Cannot read properties of null (reading '_doc')
+    at Object.getUser [as post] (webpack-internal:///(api)/./pages/api/user/checkUser.js:11:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async eval (webpack-internal:///(api)/./utils/api-handler.js:20:13)
+    at async Object.apiResolver (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\api-utils\node.js:372:9)
+    at async DevServer.runApi (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:488:9)
+    at async Object.fn (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\next-server.js:751:37)
+    at async Router.execute (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\router.js:253:36)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:384:29)
+    at async DevServer.run (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\dev\next-dev-server.js:743:20)
+    at async DevServer.handleRequest (C:\Users\Shiblee\Desktop\Senior_Manager\senior_manager\node_modules\next\dist\server\base-server.js:322:20)
+2023-02-21 21:23:58 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:24:30 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:25:31 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:26:12 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:26:28 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:27:10 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:28:00 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 21:28:21 [development] info: Method:POST URL:/api/user/register 
+2023-02-21 21:29:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:29:56 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:39:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:39:04 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:52:22 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:52:22 [development] info: Method:POST URL:/api/job/getJobsByEmployer 
+2023-02-21 21:55:21 [development] info: Method:POST URL:/api/user/checkUser 
+2023-02-21 22:01:57 [development] info: Method:POST URL:/api/user/checkUser 
